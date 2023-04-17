@@ -105,11 +105,12 @@
 }
 
 .imgCover{
-    object-fit: cover !important;
-    background-size: cover !important;
-    border-radius: 100% !important;
-    height: 90px !important;
-    width: 100px !important;
+    width: 100px;
+    height: 100px !important;
+    object-fit: cover;
+    object-position: center;
+    background-position: center;
+    background-size: cover;
 }
 
 

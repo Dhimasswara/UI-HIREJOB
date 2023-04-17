@@ -24,7 +24,7 @@ const CardWorker = ({name, id, jabatan, address, i, photo }) => {
             <li key={id} className="list-group-item py-3">
                 <div className="row">
                     <div className="col-sm-2 col-12 col-lg-2 d-flex align-items-center justify-content-center mb-3 mb-md-0">
-                        <Image className={`${style.imgCover} img-thumbnail `} crossOrigin='anonymouse' width={150} height={150} src={photo} alt=""></Image>
+                        <Image className={`${style.imgCover} img-thumbnail rounded-circle`} crossOrigin='anonymouse' width={150} height={150} src={photo} alt=""></Image>
                     </div>
                     <div className={`col-lg-8 col-12 col-sm-10 ${style.body} text-md-start text-center`}>
                         <h4>{name}</h4>

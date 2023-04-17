@@ -14,8 +14,6 @@ import 'aos/dist/aos.css';
 import Link from "next/link";
 
 
-
-
 const LandingPage = () => {
 
 

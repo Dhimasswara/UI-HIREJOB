@@ -8,6 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useDispatch } from 'react-redux'
 import { getWorkers } from '@/redux/actions/workerActions'
+import img from '../../Assets/DefaultImg/profile.png'
 
 
 const index = () => {
@@ -60,7 +61,7 @@ const index = () => {
                             <ul className="list-group list-group-flush">
                                 {worker?.map((users, index) => (
                                     <CardWorker
-                                        photo={users?.image === null ? '' : users?.image}
+                                        photo={users?.image === null ? img : users?.image}
                                         name={users.name}
                                         address={users.address}
                                         jabatan={users.jobdesk}
