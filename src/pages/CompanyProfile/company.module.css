@@ -1,0 +1,43 @@
+.colRow {
+    padding: 0;
+    box-shadow: 5px 7px 21px -8px rgba(103,96,184,0.98);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.box {
+    min-height: 50vh;
+    border-radius: 10px;
+    
+}
+.imgBackground {
+    height: 230px;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url('../../Assets/CompanyProfile/background.jpg');
+    background-size: cover;
+    background-position: 300px 0 0 0 ;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 70px;
+    padding-left: 0;
+    object-fit: cover;
+}
+.img {
+    background-position: center;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    z-index: 99;
+}
+
+.bottomEdit {
+    bottom: 80px;
+    cursor: pointer;
+}

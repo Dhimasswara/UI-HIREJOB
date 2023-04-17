@@ -1,0 +1,7 @@
+.skills {
+    font-size: 12px !important;
+    background-color: rgba(251, 176, 23, 0.67);
+    color: white !important;
+    font-weight: 400 !important;
+    border: 2px solid rgba(251, 176, 23, 1);
+}
