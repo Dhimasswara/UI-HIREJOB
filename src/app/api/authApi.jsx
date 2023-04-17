@@ -3,7 +3,7 @@ import { setCredentials, logout } from './authSlice'
 
 const baseQuery = fetchBaseQuery({
   baseUrl: process.env.API_BACKEND,
-  credentials: 'include',
+  credentials: 'same-origin',
   prepareHeaders: (headers, {getState}) => {
     if(getState()?.auth?.token){
       const token = getState().auth.token
