@@ -73,7 +73,7 @@ const LandingPage = () => {
                 </div>
             </SectionPage>
 
-            {/* <SectionPage embedSection={style.sectionThree}>
+            <SectionPage embedSection={style.sectionThree}>
                 <div className="row my-5 flex-column-reverse flex-md-row ">
                     <div className="col-12 col-md-6" data-aos="zoom-in" data-aos-duration="2000">
                         <h1 className="fw-bolder text-center text-md-start text-wrap">Skill Talent</h1>
@@ -103,7 +103,7 @@ const LandingPage = () => {
                     </div>
 
                 </div>
-            </SectionPage> */}
+            </SectionPage>
 
             <SectionPage embedSection={style.sectionFour}>
                 <div className="row my-5 justify-content-center align-items-center " >
