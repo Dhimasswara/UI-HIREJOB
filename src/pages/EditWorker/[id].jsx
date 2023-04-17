@@ -294,9 +294,9 @@ const EditProfile = () => {
                             <div className={`col-12 ${style.rowOneLeft}`}>
                                 <div className="profileDesc">
                                     <div className={` mx-auto pb-4 pt-2 d-flex flex-column align-items-center justify-content-center ${style.picture}`}>
-                                        {worker?.image &&
-                                            <Image width={150} height={150} crossOrigin='anonymous' src={preview ? preview : worker?.image === undefined ? img : worker?.image} className={`img-thumbnail rounded-circle ${style.imgStyle}`}></Image>
-                                        }
+                                        {/* {worker?.image && */}
+                                            <Image width={150} height={150} crossOrigin='anonymous' src={preview ? preview : worker?.image === null ? img : worker?.image} className={`img-thumbnail rounded-circle ${style.imgStyle}`}></Image>
+                                        {/* } */}
                                         <form onSubmit={handleSubmit}>
                                             <label htmlFor='upload-photo user-photo' style={{ backgroundColor: "white", border: "none", marginTop: "10px", cursor: 'pointer' }}><FontAwesomeIcon icon={faPencil} /><span style={{ marginLeft: "10px" }}>Edit</span></label>
                                             <input type="file" id='upload-photo user-photo' name='image' hidden onChange={selectFile} onClick={trigerInputFile} />
