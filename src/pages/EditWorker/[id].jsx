@@ -304,8 +304,8 @@ const EditProfile = () => {
                                     </div>
                                     <h5 className='fw-bolder'>{worker?.name}</h5>
                                     {/* <span className={style.work}>{worker?.jobdesk}</span> */}
-                                    <p className={style.address}><FontAwesomeIcon icon={faLocationDot} style={{ marginRight: "10px" }} />{worker?.address}</p>
-                                    <span className={style.worker}>{worker?.jobdesk}</span>
+                                    <p className={style.address}><FontAwesomeIcon icon={faLocationDot} style={{ marginRight: "10px" }} />{worker?.address === null? 'Location' : worker?.address}</p>
+                                    <span className={style.worker}>{worker?.jobdesk === null ? 'Jobdesk' : worker?.jobdesk}</span>
                                 </div>
                             </div>
                         </div>
