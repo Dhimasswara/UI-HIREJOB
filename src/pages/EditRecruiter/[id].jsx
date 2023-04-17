@@ -23,7 +23,7 @@ const EditRecruiter = () => {
     const [preview, setPreview] = useState()
 
     const [data, setData] = useState({
-        fullname: '',
+        name: '',
         phone: '',
         position: '',
         job_field: '',
@@ -35,7 +35,6 @@ const EditRecruiter = () => {
         company_name: '',
         image: recruiter?.image
     })
-
     const changeHandler = (e) => {
         setData(prev => {
             return {
@@ -150,7 +149,7 @@ const EditRecruiter = () => {
                                     <div className="col-11">
                                         <h3 className='pt-4'>Profile</h3>
                                         <hr className={style.hr} />
-                                        <InputFormEdit type={'text'} title={'Name'} name={'fullname'} placeholder={'Robertson Andres'} className="mb-0" value={data?.fullname} onchange={changeHandler} />
+                                        <InputFormEdit type={'text'} title={'Name'} name={'name'} placeholder={'Robertson Andres'} className="mb-0" value={data?.name} onchange={changeHandler} />
                                         <InputFormEdit type={'text'} title={'Company Name'} name={'company_name'} placeholder={'PT. Goto'} className="mb-0" value={data?.company_name} onchange={changeHandler} />
                                         <InputFormEdit type={'text'} title={'Position'} name={'position'} placeholder={'HRD'} value={data?.position} onchange={changeHandler}/>
                                         <InputFormEdit type={'text'} title={'City'} name={'city'} placeholder={'Jakarta'} value={data?.city} onchange={changeHandler} />

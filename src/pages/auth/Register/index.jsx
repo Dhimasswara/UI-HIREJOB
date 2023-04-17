@@ -20,7 +20,6 @@ const Register = () => {
   const [passwordConfirmation, setPasswordConfirmation] = useState('')
   const [data, setData] = useState({
     name: '',
-    fullname: '',
     email: '',
     company_name: '',
     position: '',
@@ -133,7 +132,7 @@ const Register = () => {
 
         <Tab eventKey="profile" title="Recruiter">
           <form onSubmit={recruiterHandler}>
-            <InputFormAuth title="Name" name="name" value={data.fullname} type="text" onchange={changeHandler} req={'required'} />
+            <InputFormAuth title="Name" name="name" value={data.name} type="text" onchange={changeHandler} req={'required'} />
             <InputFormAuth title="Email Address" value={data.email} name="email" type="text" onchange={changeHandler} req={'required'} />
             <InputFormAuth title="Perusahaan" value={data.perusahaan} name="company_name" type="text" onchange={changeHandler} />
             <InputFormAuth title="Jabatan" value={data.jabatan} name="position" type="text" onchange={changeHandler} />
