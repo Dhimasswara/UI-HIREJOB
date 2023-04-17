@@ -89,10 +89,10 @@ const Profile = () => {
                                 <Image crossOrigin='anonymouse' width={150} height={150} src={worker?.image === null ? img : worker?.image} className={`img-thumbnail rounded-circle ${style.imgStyle}`}></Image>
                             </div>
                             <h5 className='fw-bolder'>{worker?.name}</h5>
-                            <span className={style.work}>{worker?.jobdesk === null || 'null' ? 'Jobdesk' : worker?.jobdesk}</span>
-                            <p className={style.address}><FontAwesomeIcon icon={faLocationDot} style={{ marginRight: "10px" }} />{worker?.address === null || 'null' ? 'Location' : worker?.address}</p>
-                            <span className={style.worker}>{worker?.jobdesk === null || 'null' ? 'Jobdesk' : worker?.jobdesk}</span>
-                            <p className={style.bio}>{worker?.description === null || 'null' ? 'Description' : worker?.description}</p>
+                            <span className={style.work}>{worker?.jobdesk === null ? 'Jobdesk' : worker?.jobdesk}</span>
+                            <p className={style.address}><FontAwesomeIcon icon={faLocationDot} style={{ marginRight: "10px" }} />{worker?.address === null ? 'Location' : worker?.address}</p>
+                            <span className={style.worker}>{worker?.jobdesk === null ? 'Jobdesk' : worker?.jobdesk}</span>
+                            <p className={style.bio}>{worker?.description === null ? 'Description' : worker?.description}</p>
                             {role === 'recruiter' ?
                                 <div className="hireButton d-grid">
                                     <button className={`btn ${style.btn}`}> Hire</button>
