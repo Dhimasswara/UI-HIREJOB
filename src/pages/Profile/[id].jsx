@@ -90,9 +90,9 @@ const Profile = () => {
                             </div>
                             <h5 className='fw-bolder'>{worker?.name}</h5>
                             <span className={style.work}>{worker?.jobdesk === 'undefined' ? 'Position' : worker?.jobdesk}</span>
-                            <p className={style.address}><FontAwesomeIcon icon={faLocationDot} style={{ marginRight: "10px" }} />{worker?.address === 'undefined' ? 'Location' : worker?.address}</p>
-                            <span className={style.worker}>{worker?.jobdesk === 'undefined' ? 'Position' : worker?.jobdesk}</span>
-                            <p className={style.bio}>{worker?.description === 'undefined' ? 'Position' : worker?.description}</p>
+                            <p className={style.address}><FontAwesomeIcon icon={faLocationDot} style={{ marginRight: "10px" }} />{worker?.address === null ? 'Location' : worker?.address}</p>
+                            <span className={style.worker}>{worker?.jobdesk === null ? 'Position' : worker?.jobdesk}</span>
+                            <p className={style.bio}>{worker?.description === null ? 'Position' : worker?.description}</p>
                             {role === 'recruiter' ?
                                 <div className="hireButton d-grid">
                                     <button className={`btn ${style.btn}`}> Hire</button>
