@@ -157,10 +157,10 @@ const EditProfile = () => {
 
     const [data, setData] = useState({
         name: '',
-        jobdesk: '',
-        address: '',
-        workplace: '',
-        description: '',
+        jobdesk: null,
+        address: null,
+        workplace: null,
+        description: null,
         image: worker?.image
     });
 
