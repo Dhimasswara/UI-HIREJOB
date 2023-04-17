@@ -2,18 +2,14 @@
 .sectionOne {
     margin-top: 100px;
     margin-bottom: 200px;
-    width: 100vw !important;
 }
 .sectionTwo {
     margin-top: 200px;
     margin-bottom: 200px;
-    width: 100vw !important;
 
 }
 .sectionThree {
     margin-bottom: 120px;
-    width: 100vw !important;
-
 }
 .sectionFour {
     background-color: #f2f0ff;
@@ -252,12 +248,11 @@
         height: 100vh;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100vw !important;
 
     } 
 
     .sectionOneTitle {
-        margin-top: -130px;
+        margin-top: 100px;
     }
     .sectionOneTitle button {
         background-color: aliceblue !important;

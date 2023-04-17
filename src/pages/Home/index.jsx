@@ -44,14 +44,14 @@ const index = () => {
                 <div className={`${style.searching} mt-4 mb-4`} data-aos="zoom-out-down">
                     <form className="d-flex" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" onChange={(e) => setSearch(e.target.value)} onKeyDown={handleSearch} />
-                        <button className={` ${style.btnSearch} btn btn-outline-success"`} type="submit">Search</button>
-                        <select className={`${style.Drop} form-selec `} aria-label="Default select example">
+                        <button className={` ${style.btnSearch} btn btn-outline-success d-none d-md-block`} type="submit">Search</button>
+                        <select className={`${style.Drop} form-selec d-none d-md-block`} aria-label="Default select example">
                             <option selected className={`${style.btnDrop}`}>Sort</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                         </select>
-                        <div className={style.garisVertical}></div>
+                        <div className={`d-none d-md-block ${style.garisVertical}`}></div>
                     </form>
                 </div>
 

@@ -5,7 +5,7 @@ const nextConfig = {
     appDir: true,
   },
   env: {
-    API_BACKEND: 'https://be-hirejob.up.railway.app/', 
+    API_BACKEND: 'http://localhost:4000/'
   },
   images: {
     remotePatterns: [

@@ -38,7 +38,7 @@ const LandingPage = () => {
                             </div>
                         </div>
                         <div className="col-md-7 col-12 d-grid justify-content-md-end justify-content-center mb-4 mb-md-0" data-aos="fade-left" data-aos-duration="2000">
-                            <div className={style.imgWrapper}>
+                            <div className={`d-none ${style.imgWrapper}`}>
                                 <div className={style.box1} />
                                 <Image className={`${style.imgSection} img-fluid`} src={img} ></Image>
                             </div>
@@ -50,12 +50,12 @@ const LandingPage = () => {
 
             <SectionPage embedSection={style.sectionTwo}>
                 <div className="row ">
-                    <div className="col-md-6 col-12 text-center d-grid justify-content-center" data-aos="flip-left" data-aos-duration="2000">
+                    {/* <div className="col-md-6 col-12 text-center d-grid justify-content-center" data-aos="flip-left" data-aos-duration="2000">
                         <div className={style.imgWrapper2}>
                             <div className={style.box2} />
                             <Image className={`img-fluid ${style.imgSection2}`} src={img2}></Image>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="col-md-6 col-12 mt-4 mt-md-0 text-center text-md-start text-wrap" data-aos="flip-right" data-aos-duration="2000">
                         <h1 className="fw-bolder">Kenapa harus mencari tallent di peworld</h1>
                         <div className="row mt-4">
@@ -93,12 +93,12 @@ const LandingPage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-12 text-center mb-md-0 mb-4 d-grid justify-content-center" data-aos="zoom-out" data-aos-duration="2000">
+                    {/* <div className="col-md-6 col-12 text-center mb-md-0 mb-4 d-grid justify-content-center" data-aos="zoom-out" data-aos-duration="2000">
                         <div className={style.imgWrapper3}>
                             <div className={style.box3} />
                             <Image className={`${style.imgSection3} img-fluid`} src={img2}></Image>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </SectionPage>

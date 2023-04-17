@@ -5,6 +5,10 @@
     width: 100vw;
 }
 
+.main-wrapper::-webkit-scrollbar{
+    display: none;
+}
+
 .content-wrapper {
     flex: 1;
 }
