@@ -6,9 +6,9 @@
   <p align="center">
     <a href="https://github.com/Dhimasswara/UI-HIREJOB"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://hirejob-three.vercel.app/">View Demo</a>
+    <a href="https://hirejob-kappa.vercel.app/">View Demo</a>
     <br />
-    <a href="#">Api Demo</a>
+    <a href="https://www.github.com/Dhimasswara/BE-HIREJOB">Api Demo</a>
   </p>
 </p>
 
@@ -137,6 +137,6 @@ Contributions are what make the open source community such an amazing place to b
 
 :rocket: [`Frontend Hiring App`](https://github.com/Dhimasswara/UI-HIREJOB)
 
-:rocket: [`Demo Hiring App`](https://hirejob-three.vercel.app/)
+:rocket: [`Demo Hiring App`](https://hirejob-kappa.vercel.app/)
 
 Project Link: [https://github.com/Dhimasswara/UI-HIREJOB](https://github.com/Dhimasswara/UI-HIREJOB)
