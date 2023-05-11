@@ -31,7 +31,7 @@ const LandingPage = () => {
                         <div className={`col-md-5 col-12 d-grid align-items-center ${style.sectionOneTitle}`} data-aos="fade-right" data-aos-duration="2000">
                             <div className="row">
                                 <div className="col-md-10">
-                                    <h1 className="fw-bolder">Talenta terbaik negri untuk perubahan revolusi 4.0</h1>
+                                    <h1 className="fw-bolder">Talenta terbaik negri untuk perubahan revolusi 5.0</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.</p>
                                     <Link href={'/Home'} className={`btn ${button.btn1} mt-5`} >Mulai Dari Sekarang</Link>
                                 </div>
