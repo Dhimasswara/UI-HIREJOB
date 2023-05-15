@@ -104,7 +104,7 @@ API_BACKEND = [BACKEND_URL]
 
   <tr>
     <td><img width="350px" src="./doc/profile-worker.png"  border="0" border="0" alt="1" /></td>
-    <td> <img width="350px" src="./documentation/profile-recruiters.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+    <td> <img width="350px" src="./doc/profile-recruiters.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
   </tr>
    <tr>
     <td>Profile Worker</td>
