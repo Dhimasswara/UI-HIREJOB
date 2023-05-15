@@ -85,12 +85,12 @@ API_BACKEND = [BACKEND_URL]
 
 <table>
  <tr>
-    <td><img width="350px" src="./documentation/recruiter-register.png"  border="0" border="0" alt="1" /></td>
-    <td> <img width="350px" src="./documentation/register.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+    <td><img width="350px" src="./doc/register.png"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="./doc/login.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
   </tr>
    <tr>
-    <td>Recruiter Register</td>
-    <td>Worker Register</td>
+    <td>Register</td>
+    <td>Login</td>
   </tr>
   
   <tr>
