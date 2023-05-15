@@ -103,12 +103,12 @@ API_BACKEND = [BACKEND_URL]
   </tr>
 
   <tr>
-    <td><img width="350px" src="./documentation/worker-experience.png"  border="0" border="0" alt="1" /></td>
-    <td> <img width="350px" src="./documentation/worker-portofolio.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+    <td><img width="350px" src="./doc/profile-worker.png"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="./documentation/profile-recruiters.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
   </tr>
    <tr>
-    <td>Worker experience</td>
-    <td>Worker portofolio</td>
+    <td>Profile Worker</td>
+    <td>Profile Recruiter</td>
   </tr>
 
   <tr>
