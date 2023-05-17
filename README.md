@@ -120,7 +120,7 @@ API_BACKEND = [BACKEND_URL]
   </tr>
   <tr>
     <td><img width="350px" src="./doc/pengalaman.png"  border="0" border="0" alt="1" /></td>
-    <td> <img width="350px" src="./doc/recruiters-open-profile-worker.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+    <td> <img width="350px" src="./doc/recruiters-open-profile-workers.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
   </tr>
    <tr>
     <td>Experience</td>
