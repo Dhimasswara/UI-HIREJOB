@@ -110,6 +110,22 @@ API_BACKEND = [BACKEND_URL]
     <td>Profile Worker</td>
     <td>Profile Recruiter</td>
   </tr>
+  <tr>
+    <td><img width="350px" src="./doc/edit-profile.png"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="./doc/edit-recruiters.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+  </tr>
+   <tr>
+    <td>Edit Worker</td>
+    <td>Edit Recruiter</td>
+  </tr>
+  <tr>
+    <td><img width="350px" src="./doc/pengalaman.png"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="./doc/recruiters-open-profile-worker.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+  </tr>
+   <tr>
+    <td>Experience</td>
+    <td>Hire Button </td>
+  </tr>
   
   <tr>
     <td><img width="350px" src="./doc/add-portfolio.png"  border="0" border="0" alt="1" /></td>
