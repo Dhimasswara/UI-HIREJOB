@@ -8,7 +8,7 @@
     <br />
     <a href="https://hirejob-kappa.vercel.app/">View Demo</a>
     <br />
-    <a href="https://www.github.com/Dhimasswara/BE-HIREJOB">Api Demo</a>
+    <a href="https://be-hirejob.up.railway.app/">Api Demo</a>
   </p>
 </p>
 
